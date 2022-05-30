@@ -8,7 +8,7 @@ public class Main {
         double Age = 0;
         String Email="";
         String Name;
-
+        while (true) {
             System.out.print("Введите имя: ");
             Name = scanner.next();
             while (Age == 0) {
@@ -21,6 +21,7 @@ public class Main {
                     break;
                 }
             }
+            if(Age==0){continue;}
             while (Email.equals("")) {
                 System.out.print("Enter Email: ");
                 try {
@@ -31,9 +32,10 @@ public class Main {
                      break;
                 }
             }
+            if(Email.equals("")){continue;}
             Human human1 = new Human(Name, Age, Email);
             System.out.println(human1);
-
+        }
 
 
 
