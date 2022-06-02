@@ -1,4 +1,4 @@
-package Task2_2;
+package Task1_2;
 
 public class RobotDancer extends Robot {
     @Override

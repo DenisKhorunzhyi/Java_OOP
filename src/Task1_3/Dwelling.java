@@ -1,6 +1,4 @@
-package Task_2;
-
-import First_Task.Rectangle;
+package Task1_3;
 
 public class Dwelling {
     public String BuildingManerial;

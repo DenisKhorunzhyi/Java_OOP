@@ -1,4 +1,4 @@
-package Task2_4;
+package Task1_5;
 
 public class Animal {
     private double Yers;
